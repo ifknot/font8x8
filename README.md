@@ -1,7 +1,6 @@
 # Most Significant Bit is First Pixel conversion of...
 
 ## 8x8 monochrome bitmap font for rendering
-=========================================
 
 A collection of header files containing a 8x8 bitmap font.
 
@@ -13,7 +12,7 @@ Author: Daniel Hepper <daniel@hepper.net>
 License: Public Domain
 
 ## Encoding
-========
+
 Every character in the font is encoded row-wise in 8 bytes.
 
 The least significant bit of each byte corresponds to the first pixel in a
@@ -47,7 +46,7 @@ To access the nth pixel in a row, right-shift by n.
 
 
 ## Renderer
-========
+
 To visualize the font, a simple renderer is included in render.c
 
     $ gcc render.c -o render
@@ -61,7 +60,7 @@ To visualize the font, a simple renderer is included in render.c
     XX  XX
 
 ## Credits
-=======
+
 These header files are directly derived from an assembler file fetched from:
 http://dimensionalrift.homelinux.net/combuster/mos3/?p=viewsource&file=/modules/gfx/font8_8.asm
 
