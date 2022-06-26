@@ -15,7 +15,7 @@ License: Public Domain
 
 Every character in the font is encoded row-wise in 8 bytes.
 
-The least significant bit of each byte corresponds to the first pixel in a
+The _least significant bit_ of each byte corresponds to the first pixel in a
  row. 
 
 The character 'A' (0x41 / 65) is encoded as 
